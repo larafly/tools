@@ -1,0 +1,31 @@
+{
+    "name": "larafly/tools",
+    "description": "php tools",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^3.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Larafly\\Tools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Larafly\\Tools\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "foryoufeng",
+            "email": "foryoufeng@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
